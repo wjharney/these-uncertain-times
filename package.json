@@ -1,0 +1,24 @@
+{
+  "name": "these-uncertain-times",
+  "version": "1.0.0",
+  "description": "A browser extension that replaces phrases like 'in these uncertain times' with more certainty.",
+  "author": "Will Harney",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjharney/these-uncertain-times.git"
+  },
+  "keywords": [
+    "firefox",
+    "chrome",
+    "extension",
+    "covid19",
+    "coronavirus",
+    "uncertain"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wjharney/these-uncertain-times/issues"
+  },
+  "homepage": "https://github.com/wjharney/these-uncertain-times#readme"
+}
