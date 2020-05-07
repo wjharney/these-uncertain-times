@@ -2,8 +2,6 @@
   "manifest_version": 2,
   "name": "These Uncertain Times",
   "author": "Will Harney",
-  "version": "1.0.0",
-  "description": "A browser extension that replaces phrases like 'in these uncertain times' with more certainty.",
   "__chrome__icons": {
     "32": "icons/icon-72.png",
     "48": "icons/icon-72.png",
