@@ -8,7 +8,8 @@
     "build:firefox": "webextension-toolbox build -s src firefox",
     "build:chrome": "webextension-toolbox build -s src chrome",
     "dev:firefox": "webextension-toolbox dev -s src firefox",
-    "dev:chrome": "webextension-toolbox dev -s src chrome"
+    "dev:chrome": "webextension-toolbox dev -s src chrome",
+    "zip": "npm-pack-zip --dst packages"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "eslint-plugin-prettier": "3.1.3",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
+    "npm-pack-zip": "1.2.7",
     "prettier": "2.0.5",
     "webextension-toolbox": "3.0.0"
   }
