@@ -4,7 +4,16 @@
   "author": "Will Harney",
   "version": "1.0.0",
   "description": "A browser extension that replaces phrases like 'in these uncertain times' with more certainty.",
-  "icons": {},
+  "__chrome__icons": {
+    "32": "icons/icon-72.png",
+    "48": "icons/icon-72.png",
+    "96": "icons/icon-72.png"
+  },
+  "__firefox__icons": {
+    "32": "icons/icon.svg",
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
   "content_scripts": [
     {
       "matches": ["*://*/*"],

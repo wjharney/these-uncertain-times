@@ -30,3 +30,5 @@ npm run build:chrome
 ## Credits
 
 This extension was inspired by Steven Frank's [cloud-to-butt](https://github.com/panicsteve/cloud-to-butt).
+
+The icon for this extension is part of the [Twemoji](https://twemoji.twitter.com/) emoji set, and is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
