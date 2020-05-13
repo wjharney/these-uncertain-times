@@ -1,6 +1,6 @@
 # These Uncertain Times
 
-A browser extension that replaces occurrences of "in these uncertain times" and similar phrases with others that are more ~~honest~~ entertaining.
+Are you tired of hearing the phrase "in these uncertain times"? Do you wish that people would make their point more directly? Are the voices in your head getting harder to ignore? If you answered yes to any of these questions, then this is the tool for you! _These Uncertain Times_ replaces occurrences of trite euphemisms with more ~~honest~~ entertaining phrases, all across the web.
 
 ### Install now for **[Chrome](https://chrome.google.com/webstore/detail/these-uncertain-times/lemhphkoagocfbgnafiiiolgicldhmcf)** or **[Firefox](https://addons.mozilla.org/en-US/firefox/addon/these-uncertain-times/)**
 
