@@ -2,7 +2,7 @@
 
 A browser extension that replaces occurrences of "in these uncertain times" and similar phrases with others that are more ~~honest~~ entertaining.
 
-### Install now for **[Chrome](#readme)** or **[Firefox](#readme)**
+### Install now for **[Chrome](https://chrome.google.com/webstore/detail/these-uncertain-times/lemhphkoagocfbgnafiiiolgicldhmcf)** or **[Firefox](https://addons.mozilla.org/en-US/firefox/addon/these-uncertain-times/)**
 
 ## Testimonials
 
