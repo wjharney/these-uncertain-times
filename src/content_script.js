@@ -58,13 +58,38 @@ function updateMutations(mutations) {
   }
 }
 
-// Update page title
-document.title = replaceText(document.title)
-// Update page text
-updateNode(document.body)
-// Watch page for changes to text
-const obs = new MutationObserver(updateMutations)
-obs.observe(document.body, {
-  childList: true,
-  subtree: true
-})
+function domainIsBlacklisted(target, blacklist) {
+  // Add . to target when matching only subdomains
+  const subtarget = `.${target}`
+  for (const { domain, subdomains } of blacklist) {
+    if (subdomains) {
+      // Block all subdomains of the blacklisted domain
+      if (domain.slice(-subtarget.length) === subtarget) {
+        return true
+      }
+    } else if (domain === target) {
+      // Block only domain exactly matches target
+      return true
+    }
+  }
+  return false
+}
+
+;(async () => {
+  // Skip replacing text if domain is blacklisted
+  const { blacklistParsed: blacklist } = await browser.storage.local.get({ blacklistParsed: [] })
+  if (domainIsBlacklisted(location.hostname, blacklist)) {
+    return
+  }
+  console.warn(`Some text on this page (${location}) may be replaced by These Uncertain Times.`)
+  // Update page title
+  document.title = replaceText(document.title)
+  // Update page text
+  updateNode(document.body)
+  // Watch page for changes to text
+  const obs = new MutationObserver(updateMutations)
+  obs.observe(document.body, {
+    childList: true,
+    subtree: true
+  })
+})()

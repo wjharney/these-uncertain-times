@@ -18,5 +18,11 @@
       "js": ["content_script.js"],
       "all_frames": true
     }
-  ]
+  ],
+  "options_ui": {
+    "__chrome__chrome_style": true,
+    "__firefox__browser_style": true,
+    "page": "options/options.html"
+  },
+  "permissions": ["storage"]
 }

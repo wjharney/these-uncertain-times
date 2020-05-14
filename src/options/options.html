@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Options</title>
+    <script src="options.mjs" type="module"></script>
+  </head>
+  <body>
+    <label for="blacklist" class="browser-style">Domain Blacklist</label>
+    <textarea id="blacklist" class="browser-style"></textarea>
+    <div>
+      <button id="save-btn" class="browser-style default">Save</button>
+    </div>
+    <ul>
+      <li>Text will not be replaced on domains in the blacklist.</li>
+      <li>
+        Enter the domain name only. For example, enter <kbd>example.com</kbd>, not <kbd>https://example.com/page</kbd>.
+      </li>
+      <li>
+        Match all subdomains using <kbd>*</kbd>. For example, <kbd>*.example.com</kbd> matches <kbd>a.example.com</kbd>,
+        <kbd>b.example.com</kbd>, etc. Note that <kbd>*.example.com</kbd> will <em>not</em> match
+        <kbd>example.com</kbd> (i.e. with no subdomain).
+      </li>
+      <li>Lines starting with <kbd>#</kbd> will be ignored.</li>
+    </ul>
+  </body>
+</html>
