@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.0
+
+- Expanded matched phrases to include "in this \_\_\_\_ time"
+- Added new replacement phrases.
+
 ## v1.1.1 _(Chrome)_
 
 - Changed size of icons for Chrome.
