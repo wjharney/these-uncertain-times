@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.1 _(Chrome)_
+
+- Changed size of icons for Chrome.
+
 ## v1.1.0
 
 - Added support for specifying a blacklist, available from the extension's options page.

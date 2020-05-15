@@ -1,6 +1,6 @@
 {
   "name": "these-uncertain-times",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A browser extension that replaces phrases like 'in these uncertain times' with more certainty.",
   "author": "Will Harney",
   "scripts": {
