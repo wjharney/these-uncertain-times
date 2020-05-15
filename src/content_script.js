@@ -1,5 +1,5 @@
 import phrases from './phrases.json'
-const theseTimes = /\b(in|during) (this|these)(?: (very))?(?: ([a-z-]*?))? times?\b/gi
+const theseTimes = /\b(in|during) (this|these)(?: (very))?(?: ([a-z-]+?))? times?\b/gi
 // Avoid scripts/styles to avoid messing up the page
 const skipElements = new Set(['SCRIPT', 'STYLE'])
 const filter = {
